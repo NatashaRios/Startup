@@ -1,0 +1,28 @@
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.card{
+  width: 370px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  display: flex;
+  padding: 5px;
+  color: inherit;
+  text-decoration: none;
+
+  .img{
+    width: 100px;
+    border-radius: 5px;
+  }
+
+  .text{
+    margin-top: 10px;
+    margin-left: 10px;
+    .name-card{}
+    .description{}
+  }
+}

@@ -1,0 +1,36 @@
+.wrapper-agregar{
+  .aviso{
+    margin: 3px auto;
+    width: 350px;
+  }
+  
+  .formulario{
+    margin: 0 auto;
+    width: 300px;
+
+    .title-agregar{
+      margin-bottom: -0.5px;
+    }
+
+    .input-agregar{
+      width: 100%;
+      height: 20px;
+    }
+
+    .boton-agregar{
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+      height: 30px;
+      background-color: rgb(12, 12, 150);
+      color: white;
+      border: 1px solid rgb(12, 12, 150);
+      border-radius: 5px;
+    }
+  }
+  .back-agregar{
+    margin-left: 10rem;
+    color: red;
+  }
+}
