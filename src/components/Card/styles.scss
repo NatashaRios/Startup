@@ -1,3 +1,7 @@
+$ipadpro: 1024px;
+$ipad: 768px;
+$mobile: 480px;
+
 a{
   color: inherit;
   text-decoration: none;
@@ -13,6 +17,16 @@ a{
   padding: 5px;
   color: inherit;
   text-decoration: none;
+
+  @media screen and (max-width: $ipad) {
+     width: 300px;
+  }
+
+  @media screen and (max-width: $mobile) {
+    width: 350px;
+    margin-left: -15px;
+  }
+
 
   .img{
     width: 100px;

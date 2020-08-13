@@ -1,6 +1,23 @@
+$ipadpro: 1024px;
+$ipad: 768px;
+$mobile: 468px;
+
 .cards{
   display: flex;
   flex-wrap: wrap;
   width: 800px;
   margin: 50px auto;
+
+  @media screen and (max-width: $ipadpro) {
+     margin-left: 100px; 
+  }
+
+  @media screen and (max-width: $ipad) {
+    margin-left: 50px;
+  }
+
+  @media screen and (max-width: $mobile) {
+    flex-direction: column;
+    margin-left: 20px;
+  }
 }
